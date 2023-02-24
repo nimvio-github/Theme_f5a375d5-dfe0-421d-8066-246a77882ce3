@@ -1,6 +1,6 @@
 <template>
   <div class="navbar__link-wrapper">
-    <nuxt-link :to="`/${to}`" class="navbar__link">
+    <nuxt-link :to="`${to}`" class="navbar__link">
       {{ text }}
     </nuxt-link>
 

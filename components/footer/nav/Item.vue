@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-4">
     <NuxtLink
-      :to="`/${to}`"
+      :to="`${to}`"
       class="font-bold text-dark-white hover:text-light-white"
       >{{ text }}</NuxtLink
     >
