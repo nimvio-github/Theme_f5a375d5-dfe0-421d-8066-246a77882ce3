@@ -130,7 +130,7 @@ onBeforeMount(() => {
           ...item,
           text:
             formData.formData.navigationTitle || formData.formData.pageTitle,
-          to: formData.formData.urlPath,
+          to: formData.formData.pageSlug,
           navigationTitle: formData.formData.navigationTitle,
           isShow: formData.formData.navigation.showInMenu,
         };
